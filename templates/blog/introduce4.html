@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <nav>
+        <a href="{% url 'blog:index' %}">블로그 홈 |</a>
+        <a href="{% url 'blog:post_create' %}">글쓰기 |</a>
+        <a href="{% url 'blog:introduce' %}">박정재 |</a>
+        <a href="{% url 'blog:introduce2' %}">김홍연 |</a>
+        <a href="{% url 'blog:introduce3' %}">김진희 |</a>
+        <a href="{% url 'blog:introduce4' %}">백송희 |</a>
+    </nav>
+        <section>
+            <h1>백송희</h1>
+            <hr>
+            <h3>나이 : 23</h3><br>
+            <h3>관련 경력 : <mark>신입</mark> / 경력</h3><br>
+            <h3>학력</h3><br>
+                <ul>
+                    <li>인천 세원고등학교 졸업</li>
+                </ul>
+        </section>
+</body>
+</html>
